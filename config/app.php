@@ -54,6 +54,9 @@ return [
 
     'providers' => [
         App\Providers\AppServiceProvider::class,
+        Illuminate\Log\LogServiceProvider::class,
+        Illuminate\Queue\QueueServiceProvider::class,
+        Sentry\Laravel\ServiceProvider::class,
     ],
 
 ];
